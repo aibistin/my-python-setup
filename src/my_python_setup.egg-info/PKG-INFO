@@ -1,0 +1,13 @@
+Metadata-Version: 1.2
+Name: my-python-setup
+Version: 0.1.0
+Summary: My Python Setup
+Home-page: https://github.com/aibistin/my-python-setup
+Author: Austin Kenny
+Author-email: austin_kenny@pobox.com
+License: UNKNOWN
+Description: # my-python-setup
+        Setup for "modern" Python
+        
+Platform: UNKNOWN
+Requires-Python: >=3.7,<4.0
