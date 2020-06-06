@@ -1,8 +1,8 @@
 README.md
 setup.py
-src/my_python_setup/#
 src/my_python_setup/__init__.py
 src/my_python_setup/console.py
+src/my_python_setup/wikipedia.py
 src/my_python_setup.egg-info/PKG-INFO
 src/my_python_setup.egg-info/SOURCES.txt
 src/my_python_setup.egg-info/dependency_links.txt

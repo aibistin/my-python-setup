@@ -1,0 +1,18 @@
+# src/my_python_setup/wikipedia.py
+import requests
+import click
+
+
+API_URL = "https://{language}.wikipedia.org/api/rest_v1/page/random/summary"
+
+
+def get_random_page(language='en'):
+    url = API_URL.format(language=language)
+    try:
+        with requests.get(url) as response:
+            response.raise_for_status()
+            return response.json()
+    except requests.RequestException as error:
+        message = str(error)
+        raise click.ClickException(message)
+
