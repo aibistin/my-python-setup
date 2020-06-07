@@ -1,7 +1,6 @@
 # src/my_python_setup/wikipedia.py
-import requests
 import click
-
+import requests
 
 API_URL = "https://{language}.wikipedia.org/api/rest_v1/page/random/summary"
 

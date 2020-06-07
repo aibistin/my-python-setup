@@ -1,5 +1,12 @@
 # .flake8
 # Configure flake8
 [flake8]
-select = C, E, F, W
+select = B,B9,BLCK,C,E,F,I,S,W
 max-complexity = 10
+# Ignore Whitespace before :, and line break before binary operator
+ignore = E203, E501, W503
+max-line-length = 88
+application-import-names = my_python_setup, tests
+import-order-style = google
+# Ignore Bandit 'assert' warnings in test scripts
+per-file-ignores = tests/*:S101

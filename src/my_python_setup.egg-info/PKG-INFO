@@ -8,6 +8,8 @@ Author-email: austin_kenny@pobox.com
 License: UNKNOWN
 Description: # my-python-setup
         Setup for "modern" Python
-        
+
+        Based on https://cjolowicz.github.io/posts/hypermodern-python-01-setup/
+
 Platform: UNKNOWN
 Requires-Python: >=3.7,<4.0
