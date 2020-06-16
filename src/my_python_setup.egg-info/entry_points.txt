@@ -1,3 +1,0 @@
-[console_scripts]
-my-python-setup = my_python_setup.console:main
-
