@@ -1,9 +1,12 @@
 # From: https://github.com/github/gitignore/blob/master/Python.gitignore
 __pycache__/
+__pycache__/*
+tests/__pycache__/*
 *.py[cod]
 *$py.class
 C extensions
 *.so
+.coverage
 
 # Distribution / packaging
 .Python
